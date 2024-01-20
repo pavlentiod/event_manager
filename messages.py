@@ -1,0 +1,1 @@
+MESSAGES = {'start':'staaaart', 'help':'heeeelp', 'state_reset':'state_Rreset', 'invalid_key':'invalid_keyYY', 'state_change':'state_changeEE'}
