@@ -9,7 +9,7 @@ from aiogram.types import ReplyKeyboardRemove, ReplyKeyboardMarkup, KeyboardButt
     InlineKeyboardButton
 import time
 
-bot = Bot(token='6286972571:AAE4jfC_2StBdFfYF0L-mhJSJRiDuk2ZXjw')
+bot = Bot(token='TOKEN')
 dp = Dispatcher(bot, storage=MemoryStorage())
 dp.middleware.setup(LoggingMiddleware())
 mrk = InlineKeyboardMarkup(row_width=1).add(
